@@ -1,0 +1,45 @@
+@import "../../../scss/mixin.scss";
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background: #2d2d2d;
+    padding: 10px 0;
+    color: #7a7a7a;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.connect {
+    margin-right: 10px;
+}
+
+.social-link {
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+    @include for-tablet-landscape-up {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+.lps-mail {
+    height: 22px;
+    width: 22px;
+}
+
+.address-heading {
+    color: #fff;
+    font-size: 20px;
+}
+.address {
+    color: #fff;
+    font-size: 14px;
+}

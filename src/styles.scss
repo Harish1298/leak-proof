@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "scss/mixin.scss";
+@import "scss/variable.scss";
+
+body {
+    margin: 0;
+    font-family: "open Sans", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+p {
+    margin: 0;
+}

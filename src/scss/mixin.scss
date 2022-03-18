@@ -1,0 +1,61 @@
+// headers
+@mixin center-flexbox() {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  
+  @mixin push--auto {
+    margin: {
+      left: auto;
+      right: auto;
+    }
+  }
+  
+  @mixin small-phone-above {
+    @media only screen and (min-width: 320px) {
+      @content;
+    }
+  }
+  
+  @mixin small-phone-below {
+    @media only screen and (max-width: 320px) {
+      @content;
+    }
+  }
+  
+  @mixin for-phone-only {
+    @media only screen and (max-width: 599px) {
+      @content;
+    }
+  }
+  
+  @mixin small-mobile-device-up {
+    @media only screen and (min-width: 350px) {
+      @content;
+    }
+  }
+  
+  @mixin for-tablet-portrait-up {
+    @media only screen and (min-width: 600px) {
+      @content;
+    }
+  }
+  
+  @mixin for-tablet-landscape-up {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin for-desktop-up {
+    @media only screen and (min-width: 1200px) {
+      @content;
+    }
+  }
+  
+  @mixin for-big-desktop-up {
+    @media only screen and (min-width: 1800px) {
+      @content;
+    }
+  }

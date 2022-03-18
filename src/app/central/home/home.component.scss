@@ -1,0 +1,15 @@
+@import "../../../scss/mixin.scss";
+
+.social-link {
+    height: 50px;
+    width: 50px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 16%;
+    right: 15px;
+    @include for-tablet-landscape-up {
+        bottom: 12%;
+    }
+}
